@@ -10,7 +10,7 @@ export const Features = async () => {
   const data = await getHomepage();
   const { solutions } = data;
   return (
-    <Section className="rounded-3xl bg-[#FFF7ED]">
+    <Section className="rounded-3xl bg-[#DEE1F8]">
       <Container>
         <SubTitle subTitle={solutions?.tagline} className="text-primary-950" />
         <div>

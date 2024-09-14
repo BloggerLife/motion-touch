@@ -13,9 +13,9 @@ import {
 
 export default function Home() {
   return (
-    <main className="no-scrollbar">
+    <main className="no-scrollbar bg-[#DEE1F8]">
       <Hero />
-      <div className="p-2 sm:p-4 bg-secondary-950">
+      <div className="bg-secondary-950 p-2 sm:p-4">
         <Features />
       </div>
       <AboutUs />
@@ -24,7 +24,7 @@ export default function Home() {
         <Testimonials />
       </div>
       <OurExpert />
-      <div className="p-2 sm:p-4 bg-secondary-950">
+      <div className="bg-secondary-950 p-2 sm:p-4">
         <NewLetter />
       </div>
       <Blog />

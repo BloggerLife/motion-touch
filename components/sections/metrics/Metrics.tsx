@@ -13,7 +13,7 @@ export const Metrics = async () => {
 
   const { metrics } = data;
   return (
-    <Section className="rounded-3xl bg-[#FFF7ED]">
+    <Section className="rounded-3xl bg-[#DEE1F8]">
       <Container>
         <SubTitle subTitle={metrics.tagline} className="text-primary-950" />
         <div>
